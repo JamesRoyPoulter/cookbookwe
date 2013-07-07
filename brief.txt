@@ -1,0 +1,21 @@
+categories of recipes
+recipes
+
+
+CookBook App
+
+We need to create a Rails app that models a cookbook's behaviour, to allow users to look at recipes, and see ingredients needed and cooking directions.
+
+We will at least need to have a Recipe model and its CRUD actions, and an Ingredient model with its CRUD actions.
+
+An individual recipe can have lots of ingredients, and an Ingredient can be used on lots of recipes, so you need to determine a database structure that supports this.
+
+Additionally, extend the functionality in directions you think are appropriate (and within reach of the skills we've covered in class):
+
+- Maybe recipes need to be assigned to an "author"
+
+- Maybe the Recipe Author has written lots of recipes...
+
+- Recipes could get collected into anthologies of "Cookbooks", and maybe that Cookbook is
+
+only allowed to be accessed by users who have a Subscription to it... (the permissions checking we've not done... but we could certainly set up the DB tables to store whether a given user has access to a certain Recipe...)
